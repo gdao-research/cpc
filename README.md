@@ -7,6 +7,10 @@ The linear model applied directly on pixel image only reached 54% accuracy.
 However, after transform into representation vector, the image recognition task achieved 90% accuracy.
 This show that good representation has been learned through the unsupervised learning process.
 
+The TSNE visualization of representation vector on 10000 augmented test images:
+
+<img src="images/tsne_cpc.png" width="700"/>
+
 ## How to Use
 - Build Docker image from Dockerfile
 - Learn representation transformation model with ```python main.py```
